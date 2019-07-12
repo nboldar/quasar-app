@@ -45,6 +45,10 @@ module.exports = function (ctx) {
         'QItem',
         'QItemSection',
         'QItemLabel',
+        'QSeparator',
+        'QInput',
+        'QForm',
+        'QToggle',
       ],
 
       directives: [
@@ -80,12 +84,12 @@ module.exports = function (ctx) {
     },
 
     devServer: {
-      setup: () => {
-        app.use((err, req, res, next) => {
-          console.error(err.stack);
-          res.status(404).send('Something broke!');
-        });
-      },
+      // setup: () => {
+      //   app.use((err, req, res, next) => {
+      //     console.error(err.stack);
+      //     res.status(404).send('Something broke!');
+      //   });
+      // },
       // https: true,
       port: 8000,
       open: true, // opens browser window automatically
