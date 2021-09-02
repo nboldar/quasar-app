@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "esm": "^3.2.25",
     "knex": "^0.18.3",
     "koa": "^2.7.0",
